@@ -26,9 +26,20 @@ Enter the database models on `restaurant_menu/models.py`
 
 create class in `restaurant_menu/views.py`
 
+create `templates` in the `restaurant_menu` folder
+
 create html file in `restaurant_menu/templates/index.html`
+create html file in `restaurant_menu/templates/menu_item_detail.html`
+
+
 create urls file in `restaurant_menu/urls.py`
 create class file in `restaurant_menu/forms.py`
+
+## Register our app with mysite 
+
+In `mysite/urls.py`
+
+add `path('', include('restaurant_menu.urls'))` to the urlpatterns
 
 ## Create a user for the admin page
 ```commandline
